@@ -30,7 +30,7 @@ function SignUp() {
       });
       const data = await response.json();
       if(data.success === false){
-        setError(data.message)
+       return setError(data.message)
       }
       setLoading(false)
       if(response.ok){
