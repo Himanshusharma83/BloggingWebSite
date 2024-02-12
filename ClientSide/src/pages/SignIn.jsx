@@ -71,7 +71,7 @@ function SignIn() {
             <div>
               <Label value="Your Email"></Label>
               <TextInput
-                type="text"
+                type="email"
                 placeholder="name@company.com"
                 id="email"
                 onChange={handleChange}
